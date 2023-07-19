@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;0,1000;1,400;1,700;1,1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Seita UX</title>
+</head>
+<body>
+    <div id="banner-home"></div>
+
+    <nav id="navbar">
+        <ul>
+        <div id="menulinks">
+        <li><a href="#oque" class="active">O quê</a></li>
+        <li><a href="#praquem">Pra quem</a></li>
+        <li><a href="#como">Como</a></li>
+        <li><a href="#porque">Porquê</a></li>
+        </ul>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="menuFunction()">
+        <i><span class="material-symbols-rounded">
+            menu
+        </span></i></a>
+    </nav>
+
+    <section id="bloco-home" class="texto">
+        <div>
+            <h1>E se eu aplicar conhecimentos de UX, Design Thinking e negócios para criar uma seita?</h1>
+            <p>
+                Me interesso por seitas e cultos desde que era criança. A existência de líderes carismáticos sempre me apavorou e fascinou, e com 
+                isso esse se tornou um dos meus assuntos favoritos. O que leva alguém a entrar para uma seita? Quais os mecanismos psicológicos que 
+                tornam algumas pessoas mais ou menos suscetíveis a elas? Somos todos suscetíveis, basta encontrar a doutrina que casa com nossas 
+                crenças ou tendências? 
+                <br><br>
+                Amo psicologia e li tudo que encontrei, mas quis ir além: e se eu usasse o que aprendi com UX, Design thinking e empreendedorismo para criar 
+                uma seita, qual seria o resultado? Vivemos em um tempo sem precedentes, em que novas seitas surgem todos os dias. Com a pandemia, a economia, 
+                a internet e as catástrofes dos últimos anos, nos tornamos mais suscetíveis? Os algoritmos e anúncios das redes sociais nos mostram o que 
+                queremos ver, e fica a pergunta: deveríamos ver somente o que queremos? Um conteúdo totalmente direcionado a nós é uma arma muito 
+                perigosa para ser usada assim, sem nenhum critério ou limite.  
+            </p>
+        </div>
+        <p class="quote">
+            ETIM(sXIII) latim secta -ae 'partido, causa, princípio, escolha filosófica, fileira' 
+        </p>
+    </section>
+
+    <section id="oque" class="texto dark">
+        <img src="imagens/logoirmandade.png" alt="logo da Irmandade do Despertar Triangular" class="img-section">
+        <div>
+        <h2>O quê?</h2>
+        <p>Um breve resumo:</p>
+        <ul class="lista">
+            <li>Uma seita criada, gerida e disseminada por mulheres, com foco no prazer e na potência do corpo feminino</li>
+            <li>Uma zuêra com o linguajar rebuscado e pretensioso de livros e manuais de seitas criadas por homens (Universo em desencanto, estou falando com você rs)</li>
+            <li>Uma crítica à seitificação da vida. Hoje em dia, tudo se parece muito com uma seita e sinto que não nos damos conta ou ligamos o suficiente pra isso. É de fato a 
+                rede social o veículo perfeito para a disseminação de doutrinas nem sempre edificantes ou positivas? O que é um influencer se não um líder carismático? rs</li>   
+        </ul>
+        </div>
+    </section>
+
+    <section id="praquem" class="texto">
+        <div>
+            <h2>Pra quem?</h2>
+            <p>
+                Usando pesquisas primárias e secundárias (obrigada, UX), descobri as características do meu público alvo:
+            </p>
+        </div>
+        <ul class="lista">
+            <li>Mulheres entre 35-45 anos</li>
+            <li>Classe média/média-alta</li>
+            <li>No Rio, moram no Centro ou Zona Sul</li>
+            <li>Têm ensino superior</li>
+            <li>Se interessam por livros, signos, tarô, feminismo, questões raciais e de gênero</li>
+            <li>Espírito "de humanas"</li>
+            <li>Solteiras ou divorciadas, sem filhos ou com filhos adultos</li>
+            <li>Investem pesado em autocuidado</li>
+        </ul>
+    </section>
+    <section id="persona" class="texto">
+        <h2>Com isso tudo em mente, criei minha persona:</h2>
+        <div id="ficha-persona">
+            <div class="linha-persona">
+                <img src="imagens/imgpersona.png" alt="ilustração de Cecília, nossa persona">
+                <h3>Cecília, 35</h3>
+                <div>
+                <ul class="lista">
+                    <li><b>Educação:</b> Bacharelado em C. Sociais<br></li>
+                    <li><b>Moradia:</b> Botafogo, Rio de Janeiro<br></li>
+                    <li><b>Família:</b> mora com 2 amigas e 1 gatinha<br></li>
+                    <li><b>Ocupação:</b> bolsista de mestrado<br></li>
+                </ul>
+                </div>
+            </div>
+            <p class="quote"><em>''Qual é o seu ascendente? Me passa os dados que vou fazer seu mapa!''</em></p>
+            <div class="linha-persona">
+                <p id="p-persona">
+                    Cecília é uma estudante de mestrado apaixonada por gatos, signos, tarô e skincare. Fez o L 
+                    na última eleição e ama lembrar a todos que o B de LGBTQIAP+ não é de biscoito. Adora andar 
+                    de bike, cuidar da sua gatinha Francisca e passear na feira de orgânicos. No final de semana 
+                    curte um sambinha com as amigas, ir a praia e assistir séries enquanto coloca o skincare em dia. 
+                    Solteira por opção, confessa que é um tantinho viciada em apps de relacionamento, mas não aguenta 
+                    mais se frustrar. Comprou um vibrador no auge da modinha, mas tem dificuldade de se conectar com seu corpo.
+                </p>
+                <div>
+                    <h2>Objetivos:</h2>
+                    <ul class="lista">
+                        <li>Alcançar orgasmos sozinha e acompanhada;</li>
+                        <li>Terminar o mestrado #RumoAoDoutorado;</li>
+                        <li>Viver aventuras sexuais que a tirem da zona de conforto;</li>
+                        <li>Conseguir falar abertamente sobre suas frustrações.</li>
+                    </ul>
+                    <h2>Frustrações:</h2>
+                    <ul class="lista">
+                        <li>Pouca química, muita performance: sente que a maioria age na cama como se estivesse em um pornô;</li>
+                        <li>Vergonha de conversar abertamente com as amigas;</li>
+                        <li>Sente que os apps de relacionamento mataram o flerte.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="como">
+        <div class="texto">
+            <h2>Como levar o Despertar Triangular ao público alvo?</h2>
+            <p>A pergunta de um milhão de dólares! Como? Analisando o que o público alvo consome, cheguei a algumas conclusões:</p>
+            <ul class="lista">
+                <li>Como o público gosta de ler, um e-book é uma boa pedida! A versão contemporânea dos livrinhos gratuitos das seitas clássicas.</li>
+                <li>Com as mudanças no mercado literário ocorridas nos últimos anos, o impresso tomou ares de mimo, de coisa phyna, de item 
+                    colecionável! Teremos uma versão impressa. Onde distribuir?</li>
+                    <ul>
+                        <li>Feirinhas literárias</li>
+                        <li>Biblioteca de universidades</li>
+                        <li>Ações pontuais em locais e eventos frequentados pelo público, como a praia do Leme e a Feira da Glória</li>
+                    </ul>
+                <li>Para aumentar o ar de segredo e misticismo (um clássico das seitas), ficaremos fora das redes. Será que a palavra se espalha?</li>
+            </ul>
+        </div>
+        <div id="img-livro">
+        </div>
+    </section>
+
+    <section id="porque" class="dark">
+        <div class="texto dark bloco-porque">
+            <h2>Mas por quê?</h2>
+            <p>Em primeiro lugar, porque a vida é curta demais. Em segundo, porque é impressionante (e um tanto triste) que ainda hoje o prazer 
+                feminino siga sendo tabu mesmo entre as mulheres em teoria mais "pra frente", com mais oportunidades e acesso. A mulher média tem 
+                mais poder do que imagina, e infelizmente segue subjugada ao homem, mesmo quando não percebe ou acredita ter "se libertado".
+               <br><br>
+                No Brasil, somos recordistas em coisas muito tristes, como taxas de feminicídio, casamento infantil e violência contra LGBTQIAP+, tudo fruto do 
+                bom e velho machismo, do abismo entre classes, da moral religiosa e do racismo estrutural. Longe de mim querer fazer a "crítica social 
+                foda": acredito que pensar no futuro que eu quero ver também passa pela imaginação, pela brincadeira, pela zuêra artística. Penso nessa 
+                seita como um eco de uma realidade paralela, em que as mulheres se descobriram e dominaram o mundo. Quem sabe ecoando essa dimensão consigo 
+                trazer um pouco mais de prazer, de (auto)crítica e de liberdade para as mulheres da minha realidade?
+                <br><br>
+                Pensei muito se o Despertar Triangular contribuiria para a hiperssexualização do mundo, mas cheguei à seguinte conclusão: a própria 
+                hiperssexualização é fruto também do machismo e do homem como centro do prazer! Eu falo de corpo, de coisas naturais, da alegria de 
+                se conhecer, de saber ter prazer. Autoconhecimento é uma coisa libertadora! Quanto mais mulheres se conhecem, se aceitam e se amam, 
+                mais perto chegamos de um futuro melhor. 
+            </p>
+            <a href="https://books.google.com.br/books?id=uTn1DwAAQBAJ&printsec=frontcover&hl=pt-BR&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false" target="_blank"><button id="ebook">Fazer download do e-book</button></a>
+        </div>
+    </section>
+
+    <section id="contato" class="texto">
+        <div>
+            <h2>Gostou? Fala comigo!</h2>
+            <p>Obrigade por ler até aqui! Se você gostou, detestou, ficou com alguma dúvida ou está carente e quer bater um papo, me 
+                manda um e-mail! É só preencher o form abaixo e logo eu te respondo! Quer alguém doido no seu projeto? #EsseCaraSouEu
+            </p>
+        </div>
+        <div id="bloco-contato">
+            <div id="foto-contato"></div>
+            <form action="https://formsubmit.co/dandara.bayer@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Nome" required autocomplete="on"/>
+                <input type="email" name="email" placeholder="Email" required autocomplete="on">
+                <textarea name="message" id="message" rows="10" placeholder="Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+           </form> 
+        </div>
+    </section>
+
+    <footer>Tudo aqui foi inventado por <a href="https://github.com/dandbayer" target="_blank">Dand</a> com a ajuda do HTML, CSS, JS e da internet.</footer>
+
+    <a class="btn-fixed" href="#banner-home">
+        <span class="material-symbols-rounded icon">
+            north
+        </span>
+    </a>
+    <script src="scripts.js"></script>
+</body>
+</html>
